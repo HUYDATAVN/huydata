@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "data-foundation",
+    "name": "Data Foundation",
+    "desc": "Nền tảng dữ liệu sạch: khái niệm, chuẩn hóa và chất lượng số liệu.",
+    "order": 1
+  },
+  {
+    "slug": "data-to-decision",
+    "name": "Data to Decision",
+    "desc": "Biến số liệu rời rạc thành quyết định kinh doanh cụ thể.",
+    "order": 2
+  },
+  {
+    "slug": "quan-tri-doanh-nghiep",
+    "name": "Quản trị doanh nghiệp",
+    "desc": "Vận hành, chỉ số và ra quyết định cho hộ và doanh nghiệp nhỏ.",
+    "order": 3
+  },
+  {
+    "slug": "thue-ke-toan",
+    "name": "Thuế & Kế toán",
+    "desc": "Kê khai, sổ sách, hóa đơn và pháp quy — bằng ngôn ngữ đời thường.",
+    "order": 4
+  },
+  {
+    "slug": "ai-cho-doanh-nghiep",
+    "name": "AI cho doanh nghiệp",
+    "desc": "Ứng dụng AI thực tế cho kế toán, dữ liệu và vận hành.",
+    "order": 5
+  },
+  {
+    "slug": "case-study",
+    "name": "Case Study",
+    "desc": "Câu chuyện thật: từ số liệu đến kết quả đo được.",
+    "order": 6
+  },
+  {
+    "slug": "hoc-cung-huydata",
+    "name": "Học cùng HuyData",
+    "desc": "Hướng dẫn từng bước để bắt đầu và dùng thành thạo.",
+    "order": 7
+  }
+]

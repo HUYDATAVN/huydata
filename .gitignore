@@ -1,0 +1,25 @@
+# ============================================================================
+# HuyData Website — những thứ KHÔNG đưa lên GitHub
+# ============================================================================
+
+# Cấu hình công cụ trên máy (không liên quan website)
+.claude/
+
+# Thư mục làm việc cục bộ
+backup/
+
+# Tài liệu nội bộ — không đăng công khai
+Kế hoạch.docx
+*.docx
+
+# Bản website gốc trước khi nâng cấp — GIỮ Ở MÁY làm phao dự phòng.
+# Nếu đăng lên, Google có thể lập chỉ mục thành NỘI DUNG TRÙNG LẶP → hại SEO.
+HuyData_Website_6.html
+
+# File nén xuất ra (không cần đưa lên kho)
+*.zip
+
+# Rác của hệ điều hành
+Thumbs.db
+desktop.ini
+.DS_Store

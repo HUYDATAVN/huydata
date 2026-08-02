@@ -1,0 +1,84 @@
+{
+  "brandName": "HuyData",
+  "sub": "Giải pháp dữ liệu",
+  "slogan": "Giải pháp thông minh · Vận hành tinh gọn",
+  "zalo": "0917324328",
+  "zaloText": "0917 324 328",
+  "phone": "+84917324328",
+  "phoneText": "0917 324 328",
+  "email": "huydatavlo@gmail.com",
+  "location": "Bến Tre · ĐBSCL",
+  "ecoNote": "Một nhánh trong hệ thương hiệu của người sáng lập — cùng gốc với Khai Tâm: khai mở năng lực người đi làm, ươm mầm tư duy cho trẻ nhỏ.",
+  "copyright": "© 2026 HuyData · Trần Huy. Đã đăng ký bản quyền.",
+  "pinHash": "0166cfa348629cfc4941e91fad01a1499f430101e10f550c0bb6c1fe8e5ea534",
+  "seo": {
+    "title": "",
+    "description": "",
+    "ogImage": ""
+  },
+  "backend": {
+    "enabled": false,
+    "provider": "supabase",
+    "url": "",
+    "anonKey": ""
+  },
+  "authors": {
+    "tran-huy": {
+      "name": "Trần Huy",
+      "role": "Tư vấn Dữ liệu & AI · Người sáng lập"
+    }
+  },
+  "sections": [
+    {
+      "key": "boi-canh",
+      "on": true,
+      "nav": false
+    },
+    {
+      "key": "vi-sao",
+      "on": true,
+      "nav": false
+    },
+    {
+      "key": "giai-phap",
+      "on": true,
+      "nav": true
+    },
+    {
+      "key": "bang-gia",
+      "on": true,
+      "nav": true
+    },
+    {
+      "key": "quyet-dinh",
+      "on": true,
+      "nav": false
+    },
+    {
+      "key": "khach-hang",
+      "on": true,
+      "nav": true
+    },
+    {
+      "key": "rieng-tu",
+      "on": true,
+      "nav": true
+    },
+    {
+      "key": "faq",
+      "on": true,
+      "nav": true
+    },
+    {
+      "key": "bai-viet",
+      "on": true,
+      "nav": true
+    },
+    {
+      "key": "ve-huydata",
+      "on": true,
+      "nav": true
+    }
+  ],
+  "siteBase": "https://huydata.vn/"
+}

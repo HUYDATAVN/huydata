@@ -1,0 +1,327 @@
+{
+  "enabled": true,
+  "eyebrow": "Thư viện Tri thức",
+  "title": "Thư viện Tri thức",
+  "intro": "Kiến thức về dữ liệu, thuế – kế toán, AI và quản trị — viết bằng ngôn ngữ đời thường, để anh chị đọc là làm được.",
+  "posts": [
+    {
+      "id": "p1",
+      "slug": "7-viec-khi-chuyen-sang-ke-khai",
+      "category": "thue-ke-toan",
+      "tags": [
+        "thue-khoan",
+        "ke-khai"
+      ],
+      "featured": true,
+      "author": "tran-huy",
+      "date": "2026-01-15",
+      "updatedAt": "2026-02-10",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Danh sách 7 việc ưu tiên khi hộ kinh doanh chuyển từ thuế khoán sang kê khai: chuẩn bị hồ sơ, lập sổ sách, giữ hóa đơn điện tử và lên lịch nộp tờ khai.",
+        "keywords": [
+          "kê khai",
+          "thuế khoán",
+          "hộ kinh doanh",
+          "hóa đơn điện tử"
+        ],
+        "entities": [
+          "hoa-don-dien-tu",
+          "ke-toan-pro"
+        ],
+        "difficulty": "beginner"
+      },
+      "faqs": [
+        {
+          "q": "Hộ kinh doanh có bắt buộc chuyển sang kê khai không?",
+          "a": "Tùy diện và ngưỡng doanh thu theo quy định; khi được chuyển thì cần lập sổ sách và nộp tờ khai thay cho thuế khoán."
+        },
+        {
+          "q": "Có cần phần mềm để kê khai không?",
+          "a": "Không bắt buộc, nhưng một công cụ chạy trên máy giúp lên sổ và xuất tờ khai nhanh, ít sai sót."
+        }
+      ],
+      "title": "7 việc phải làm khi chuyển sang kê khai",
+      "excerpt": "Danh sách ngắn gọn những việc một hộ kinh doanh cần làm ngay khi không còn thuế khoán, xếp theo thứ tự ưu tiên.",
+      "body": "<p>Khi hộ kinh doanh chuyển từ thuế khoán sang kê khai, có vài việc nên làm ngay để tránh bị phạt và đỡ rối về sau.</p><h2>Chuẩn bị hồ sơ ban đầu</h2><p>Rà lại đăng ký kinh doanh, mã số thuế và phương pháp tính thuế đang áp dụng. Ghi lại ngày bắt đầu kê khai để tính kỳ cho đúng.</p><h2>Thiết lập sổ sách</h2><p>Mở sổ theo dõi doanh thu, chi phí và hóa đơn. Ưu tiên một công cụ chạy trên máy để số liệu không thất lạc.</p><h3>Giữ hóa đơn điện tử</h3><p>Tải và lưu hóa đơn đầu vào – đầu ra theo tháng, đặt tên file rõ ràng.</p><h2>Lên lịch nộp tờ khai</h2><p>Đánh dấu hạn kê khai theo tháng và quý. Nộp sớm vài ngày để còn thời gian sửa nếu sai.</p>"
+    },
+    {
+      "id": "p2",
+      "slug": "du-lieu-sach-la-gi",
+      "category": "data-foundation",
+      "tags": [
+        "du-lieu-sach",
+        "nhap-mon"
+      ],
+      "featured": true,
+      "author": "tran-huy",
+      "date": "2026-01-20",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Dữ liệu sạch là dữ liệu đúng, đủ, nhất quán và đúng định dạng — nền tảng để báo cáo, dashboard và AI cho kết quả đáng tin.",
+        "keywords": [
+          "dữ liệu sạch",
+          "chất lượng dữ liệu",
+          "nhập môn dữ liệu"
+        ],
+        "entities": [
+          "du-lieu-sach",
+          "data-platform"
+        ],
+        "difficulty": "beginner"
+      },
+      "faqs": [
+        {
+          "q": "Làm sao biết dữ liệu có sạch hay không?",
+          "a": "Kiểm tra trùng lặp, ô trống, sự nhất quán về đơn vị và định dạng ngày tháng."
+        },
+        {
+          "q": "Dữ liệu sạch có liên quan gì đến AI?",
+          "a": "AI chỉ tốt bằng dữ liệu đầu vào; dữ liệu bẩn khiến kết quả sai dù mô hình mạnh."
+        }
+      ],
+      "title": "Dữ liệu sạch là gì và vì sao quan trọng",
+      "excerpt": "Dữ liệu sạch là nền của mọi báo cáo đáng tin. Hiểu đúng khái niệm này giúp anh chị ra quyết định không bị sai từ gốc.",
+      "body": "<p>Mọi con số anh chị nhìn để ra quyết định đều bắt đầu từ dữ liệu. Nếu dữ liệu bẩn, quyết định sẽ sai — dù công cụ có hiện đại đến đâu.</p><h2>Định nghĩa</h2><p>Dữ liệu sạch là dữ liệu đúng, đủ, nhất quán và đúng định dạng: không trùng, không thiếu, không lẫn đơn vị.</p><h2>Vì sao quan trọng</h2><p>Báo cáo, dashboard và cả AI đều chỉ tốt bằng dữ liệu đầu vào. Sạch từ gốc thì về sau đỡ phải sửa.</p><h3>Ví dụ thường gặp</h3><ul><li>Cùng một khách hàng nhập hai kiểu tên khác nhau.</li><li>Số tiền lúc ghi nghìn, lúc ghi đồng.</li><li>Ngày tháng mỗi nơi một định dạng.</li></ul>"
+    },
+    {
+      "id": "p3",
+      "slug": "5-loi-nhap-lieu-pho-bien",
+      "category": "data-foundation",
+      "tags": [
+        "du-lieu-sach"
+      ],
+      "featured": false,
+      "author": "tran-huy",
+      "date": "2026-01-28",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "intermediate",
+      "ai": {
+        "summary": "Năm lỗi nhập liệu phổ biến — nhập trùng, sai đơn vị, bỏ trống — và cách phòng tránh để báo cáo không lệch.",
+        "keywords": [
+          "nhập liệu",
+          "lỗi dữ liệu",
+          "chất lượng dữ liệu"
+        ],
+        "entities": [
+          "du-lieu-sach"
+        ],
+        "difficulty": "beginner"
+      },
+      "title": "5 lỗi nhập liệu khiến báo cáo sai",
+      "excerpt": "Những lỗi nhỏ khi nhập liệu tích lại thành báo cáo lệch. Đây là năm lỗi hay gặp nhất và cách tránh.",
+      "body": "<p>Phần lớn báo cáo sai không phải do công thức, mà do khâu nhập liệu.</p><h2>Năm lỗi phổ biến</h2><h3>Nhập trùng</h3><p>Một giao dịch ghi hai lần làm doanh thu phồng lên.</p><h3>Sai đơn vị</h3><p>Lẫn nghìn với đồng khiến số liệu lệch cả nghìn lần.</p><h3>Bỏ trống</h3><p>Ô để trống làm tổng cộng thiếu.</p><h2>Cách tránh</h2><p>Dùng biểu mẫu cố định, kiểm tra tổng cuối ngày, và để công cụ tự nhắc khi thiếu.</p>"
+    },
+    {
+      "id": "p4",
+      "slug": "tu-so-lieu-ban-hang-den-quyet-dinh-nhap-hang",
+      "category": "data-to-decision",
+      "tags": [
+        "dashboard",
+        "ton-kho"
+      ],
+      "featured": false,
+      "author": "tran-huy",
+      "date": "2026-02-05",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Cách đọc số liệu bán hàng theo vòng quay và biên lãi để quyết định nhập thêm hay thanh lý hàng.",
+        "keywords": [
+          "quyết định nhập hàng",
+          "vòng quay hàng",
+          "tồn kho",
+          "dashboard"
+        ],
+        "entities": [
+          "dashboard",
+          "decision-support"
+        ],
+        "difficulty": "intermediate"
+      },
+      "faqs": [
+        {
+          "q": "Nên nhập thêm mặt hàng nào?",
+          "a": "Ưu tiên hàng bán nhanh và lãi tốt; hạn chế hàng tồn lâu chiếm vốn."
+        }
+      ],
+      "title": "Từ số liệu bán hàng đến quyết định nhập hàng",
+      "excerpt": "Số liệu bán hàng không chỉ để xem cho biết. Đây là cách đọc chúng để quyết định nhập gì, bỏ gì.",
+      "body": "<p>Bán hàng xong, con số ở lại. Biết đọc, chúng sẽ nói cho anh chị nên nhập gì kỳ tới.</p><h2>Nhìn theo vòng quay</h2><p>Mặt hàng bán nhanh, lãi tốt thì tăng nhập. Hàng tồn lâu, chiếm vốn thì cân nhắc giảm giá thanh lý.</p><h2>Ba câu hỏi trước khi nhập</h2><ul><li>Hàng này tháng qua bán được bao nhiêu?</li><li>Lãi trên mỗi đơn có đủ bù chi phí giữ hàng?</li><li>Nếu không bán hết trong 60 ngày thì sao?</li></ul>"
+    },
+    {
+      "id": "p5",
+      "slug": "hieu-thong-tu-133-trong-10-phut",
+      "category": "thue-ke-toan",
+      "tags": [
+        "tt133",
+        "ke-khai"
+      ],
+      "featured": false,
+      "author": "tran-huy",
+      "date": "2026-02-12",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "intermediate",
+      "ai": {
+        "summary": "Tóm tắt Thông tư 133: áp dụng cho ai, những sổ và báo cáo tài chính rút gọn cần có.",
+        "keywords": [
+          "Thông tư 133",
+          "kế toán doanh nghiệp nhỏ",
+          "báo cáo tài chính"
+        ],
+        "entities": [
+          "ke-toan-pro",
+          "hoa-don-dien-tu"
+        ],
+        "difficulty": "intermediate"
+      },
+      "title": "Hiểu Thông tư 133 trong 10 phút",
+      "excerpt": "Thông tư 133 nghe phức tạp nhưng với hộ và doanh nghiệp nhỏ, phần cốt lõi khá gọn. Tóm tắt những điểm cần nhớ.",
+      "body": "<p>Thông tư 133 hướng dẫn chế độ kế toán cho doanh nghiệp nhỏ và vừa. Dưới đây là phần cốt lõi.</p><h2>Áp dụng cho ai</h2><p>Doanh nghiệp nhỏ và vừa, gồm cả siêu nhỏ, trừ một số ngành đặc thù.</p><h2>Những sổ và báo cáo chính</h2><p>Sổ nhật ký chung, sổ cái, và bộ báo cáo tài chính rút gọn (B01a/B02).</p><h3>Mẹo thực hành</h3><p>Dùng công cụ tự lên sổ và xuất tờ khai chuẩn để đỡ làm tay.</p>"
+    },
+    {
+      "id": "p6",
+      "slug": "chatgpt-cho-ke-toan-dich-vu",
+      "category": "ai-cho-doanh-nghiep",
+      "tags": [
+        "chatgpt"
+      ],
+      "featured": true,
+      "author": "tran-huy",
+      "date": "2026-02-18",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Những việc AI như ChatGPT làm tốt cho kế toán dịch vụ và những việc nên giữ cho con người quyết định.",
+        "keywords": [
+          "ChatGPT",
+          "AI cho kế toán",
+          "tự động hóa"
+        ],
+        "entities": [
+          "decision-support"
+        ],
+        "difficulty": "beginner"
+      },
+      "title": "ChatGPT giúp gì cho kế toán dịch vụ",
+      "excerpt": "AI không thay kế toán, nhưng làm giúp phần lặp đi lặp lại. Vài cách dùng thực tế cho người ôm nhiều khách.",
+      "body": "<p>Với kế toán dịch vụ ôm vài chục khách, thời gian là tiền. AI làm giúp phần việc lặp lại để anh chị tập trung vào việc cần đầu óc.</p><h2>Việc AI làm tốt</h2><ul><li>Soạn email nhắc khách nộp chứng từ.</li><li>Tóm tắt quy định mới thành ngôn ngữ dễ hiểu.</li><li>Kiểm tra nhanh một đoạn số liệu bất thường.</li></ul><h2>Việc nên tự làm</h2><p>Quyết định nghiệp vụ và chịu trách nhiệm pháp lý vẫn là của con người.</p>"
+    },
+    {
+      "id": "p7",
+      "slug": "dashboard-giam-ton-kho",
+      "category": "case-study",
+      "tags": [
+        "dashboard",
+        "ton-kho"
+      ],
+      "featured": false,
+      "author": "tran-huy",
+      "date": "2026-02-22",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Case study: cửa hàng tạp hóa dùng dashboard xếp hạng hàng theo vòng quay và lãi, giảm khoảng 30% tồn kho sau ba tháng.",
+        "keywords": [
+          "case study",
+          "dashboard",
+          "giảm tồn kho",
+          "quyết định"
+        ],
+        "entities": [
+          "dashboard",
+          "khopro",
+          "decision-support"
+        ],
+        "difficulty": "intermediate"
+      },
+      "title": "Dashboard giúp cửa hàng giảm 30% tồn kho",
+      "excerpt": "Một cửa hàng tạp hóa dùng dashboard đơn giản để thấy hàng nào ăn vốn — và giảm tồn kho gần một phần ba sau ba tháng.",
+      "body": "<p>Đây là câu chuyện thật (đã ẩn danh) về một cửa hàng tạp hóa ở miền Tây.</p><h2>Vấn đề</h2><p>Vốn kẹt trong hàng tồn, chủ không biết mặt hàng nào đang ăn vốn.</p><h2>Cách làm</h2><p>Chuẩn hóa số liệu bán hàng, dựng một dashboard xếp hạng hàng theo vòng quay và lãi.</p><h2>Kết quả</h2><p>Sau ba tháng, tồn kho giảm khoảng 30%, tiền mặt xoay vòng tốt hơn.</p>"
+    },
+    {
+      "id": "p8",
+      "slug": "3-chi-so-suc-khoe-kinh-doanh",
+      "category": "quan-tri-doanh-nghiep",
+      "tags": [
+        "chi-so"
+      ],
+      "featured": false,
+      "author": "tran-huy",
+      "date": "2026-02-26",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Ba chỉ số cốt lõi để theo dõi sức khỏe kinh doanh: dòng tiền, vòng quay hàng và biên lãi.",
+        "keywords": [
+          "chỉ số kinh doanh",
+          "dòng tiền",
+          "biên lãi",
+          "vòng quay hàng"
+        ],
+        "entities": [
+          "decision-support",
+          "dashboard"
+        ],
+        "difficulty": "beginner"
+      },
+      "title": "3 chỉ số sức khỏe mọi hộ kinh doanh nên theo dõi",
+      "excerpt": "Không cần báo cáo phức tạp. Ba chỉ số này đủ để biết cửa hàng đang khỏe hay đang đuối.",
+      "body": "<p>Quản trị không cần nhiều số. Ba chỉ số dưới đây đủ để nắm sức khỏe kinh doanh.</p><h2>Dòng tiền</h2><p>Tiền vào trừ tiền ra mỗi tháng. Âm kéo dài là dấu hiệu cần xử lý ngay.</p><h2>Vòng quay hàng</h2><p>Hàng nằm kho bao lâu mới bán được. Càng lâu càng kẹt vốn.</p><h2>Biên lãi</h2><p>Lãi còn lại trên mỗi đồng doanh thu sau khi trừ chi phí.</p>"
+    },
+    {
+      "id": "p9",
+      "slug": "bat-dau-voi-huydata-5-buoc",
+      "category": "hoc-cung-huydata",
+      "tags": [
+        "nhap-mon"
+      ],
+      "featured": false,
+      "author": "tran-huy",
+      "date": "2026-03-01",
+      "updatedAt": "",
+      "cover": "",
+      "published": true,
+      "level": "foundation",
+      "pillar": true,
+      "ai": {
+        "summary": "Hướng dẫn 5 bước bắt đầu với HuyData: tải và cài, khai báo cơ sở, nhập giao dịch mẫu, xem báo cáo, nhắn Zalo khi kẹt.",
+        "keywords": [
+          "bắt đầu",
+          "hướng dẫn",
+          "HuyData"
+        ],
+        "entities": [
+          "huydata"
+        ],
+        "difficulty": "beginner"
+      },
+      "title": "Bắt đầu với HuyData: hướng dẫn 5 bước",
+      "excerpt": "Chưa quen công cụ? Năm bước dưới đây giúp anh chị chạy được ngay từ hôm nay.",
+      "body": "<p>Bài này dành cho anh chị mới bắt đầu. Làm theo năm bước là chạy được.</p><h2>Năm bước</h2><h3>Tải và cài</h3><p>Tải bản dùng thử, cài trên máy của mình.</p><h3>Nhập thông tin cơ sở</h3><p>Khai báo cửa hàng và kỳ kế toán.</p><h3>Nhập vài giao dịch mẫu</h3><p>Làm quen thao tác.</p><h3>Xem báo cáo</h3><p>Kiểm tra số liệu lên đúng.</p><h3>Nhắn Zalo khi kẹt</h3><p>Có người chỉ tận nơi.</p>"
+    }
+  ]
+}

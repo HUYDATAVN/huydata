@@ -1,0 +1,61 @@
+{
+  "eyebrow": "Hệ sinh thái",
+  "title": "Bộ công cụ cho công việc thật",
+  "intro": "Mỗi phần mềm giải một nỗi đau cụ thể, dùng chung một nền tảng — nhẹ, offline, license theo máy.",
+  "items": [
+    {
+      "name": "Kế Toán Pro",
+      "badge": "live",
+      "badgeText": "Đang cung cấp",
+      "desc": "Kế toán hộ và siêu nhỏ theo Thông tư 133. Nhật ký chung, sổ cái, phiếu thu – chi, báo cáo tài chính B01a/B02, xuất tờ khai chuẩn HTKK. Quản lý nhiều công ty, nhiều năm tài chính.",
+      "foot": "License theo máy · Trả một lần",
+      "url": "",
+      "linkText": "Tìm hiểu"
+    },
+    {
+      "name": "Quyết toán Thù lao Điều tra viên",
+      "badge": "live",
+      "badgeText": "Đang cung cấp",
+      "desc": "Quản lý và quyết toán thù lao điều tra viên thống kê cho các đơn vị, theo Thông tư 37/2022/TT-BTC và 185/2010/TT-BTC. Nhập danh sách từ Excel, tự sinh biểu mẫu và quyết toán.",
+      "foot": "Dành cho đơn vị thống kê",
+      "url": "",
+      "linkText": "Tìm hiểu"
+    },
+    {
+      "name": "KhoPro",
+      "badge": "soon",
+      "badgeText": "Sắp ra mắt",
+      "desc": "Quản lý kho và bán hàng, kèm lớp Trợ lý Quyết định: mặt hàng nào lãi, mặt hàng nào tồn lâu, nên thanh lý gì và giảm bao nhiêu để hòa vốn.",
+      "foot": "Số liệu → hành động",
+      "url": "",
+      "linkText": ""
+    },
+    {
+      "name": "hddt-lite",
+      "badge": "dev",
+      "badgeText": "Đang phát triển",
+      "desc": "Tải và quản lý hóa đơn điện tử nhẹ nhàng, dành cho kế toán dịch vụ ôm nhiều công ty. Bỏ khâu tải từng tờ thủ công.",
+      "foot": "Cho kế toán dịch vụ",
+      "url": "",
+      "linkText": ""
+    },
+    {
+      "name": "Nhắc Việc Pro",
+      "badge": "dev",
+      "badgeText": "Đang phát triển",
+      "desc": "Nhắc hạn kê khai, hạn nộp thuế, các mốc phải làm theo tháng và quý. Không bỏ lỡ ngày quan trọng.",
+      "foot": "Không lỡ mốc quan trọng",
+      "url": "",
+      "linkText": ""
+    },
+    {
+      "name": "HuyData Core",
+      "badge": "core",
+      "badgeText": "Nền tảng",
+      "desc": "Thư viện dùng chung của cả hệ sinh thái: nhận diện thương hiệu, tiện ích, engine dựng biểu mẫu, chuyển HTML → Excel và quản lý bản quyền.",
+      "foot": "Bản quyền ký số ECDSA",
+      "url": "",
+      "linkText": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "du-lieu-sach",
+    "name": "Dữ liệu sạch"
+  },
+  {
+    "slug": "nhap-mon",
+    "name": "Nhập môn"
+  },
+  {
+    "slug": "thue-khoan",
+    "name": "Thuế khoán"
+  },
+  {
+    "slug": "ke-khai",
+    "name": "Kê khai"
+  },
+  {
+    "slug": "tt133",
+    "name": "Thông tư 133"
+  },
+  {
+    "slug": "ton-kho",
+    "name": "Tồn kho"
+  },
+  {
+    "slug": "dashboard",
+    "name": "Dashboard"
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT"
+  },
+  {
+    "slug": "chi-so",
+    "name": "Chỉ số"
+  }
+]

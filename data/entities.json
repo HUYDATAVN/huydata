@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "huydata",
+    "name": "HuyData",
+    "type": "Thương hiệu",
+    "desc": "Nền tảng dữ liệu và tri thức cho hộ kinh doanh và doanh nghiệp nhỏ.",
+    "related": [
+      "data-platform",
+      "decision-support"
+    ]
+  },
+  {
+    "slug": "data-platform",
+    "name": "Data Platform",
+    "type": "Nền tảng",
+    "desc": "Lớp chuẩn hóa và lưu trữ dữ liệu sạch làm nền cho phân tích.",
+    "related": [
+      "du-lieu-sach",
+      "dashboard",
+      "decision-support"
+    ]
+  },
+  {
+    "slug": "dashboard",
+    "name": "Dashboard",
+    "type": "Công cụ",
+    "desc": "Bảng số liệu trực quan giúp thấy nhanh tình hình kinh doanh.",
+    "related": [
+      "data-platform",
+      "decision-support",
+      "khopro"
+    ]
+  },
+  {
+    "slug": "decision-support",
+    "name": "Decision Support",
+    "type": "Khái niệm",
+    "desc": "Lớp biến số liệu thành khuyến nghị hành động.",
+    "related": [
+      "dashboard",
+      "data-platform"
+    ]
+  },
+  {
+    "slug": "ke-toan-pro",
+    "name": "Kế Toán Pro",
+    "type": "Sản phẩm",
+    "desc": "Phần mềm kế toán hộ và siêu nhỏ theo Thông tư 133.",
+    "related": [
+      "hoa-don-dien-tu"
+    ]
+  },
+  {
+    "slug": "khopro",
+    "name": "KhoPro",
+    "type": "Sản phẩm",
+    "desc": "Quản lý kho và bán hàng kèm trợ lý quyết định.",
+    "related": [
+      "dashboard"
+    ]
+  },
+  {
+    "slug": "hoa-don-dien-tu",
+    "name": "Hóa đơn điện tử",
+    "type": "Khái niệm",
+    "desc": "Chứng từ hóa đơn dạng điện tử theo quy định pháp luật.",
+    "related": [
+      "ke-toan-pro"
+    ]
+  },
+  {
+    "slug": "du-lieu-sach",
+    "name": "Dữ liệu sạch",
+    "type": "Khái niệm",
+    "desc": "Dữ liệu đúng, đủ, nhất quán — nền của báo cáo đáng tin.",
+    "related": [
+      "data-platform"
+    ]
+  }
+]

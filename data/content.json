@@ -1,0 +1,334 @@
+{
+  "hero": {
+    "eyebrow": "HuyData · Giải pháp dữ liệu miền Tây",
+    "title": "Hết thuế khoán<br>không đáng sợ — nếu có <span class=\"em\">công cụ đúng</span>.",
+    "sub": "Phần mềm kế toán, hóa đơn và kho hàng chạy ngay trên máy của anh chị. Trả một lần, dữ liệu ở lại máy mình — làm bởi người đã 20 năm trong nghề thuế – thống kê.",
+    "ctaText": "Nhắn Zalo nhận tư vấn",
+    "ctaText2": "Xem giải pháp",
+    "ctaLink2": "#giai-phap",
+    "trust": [
+      "Chạy offline",
+      "Trả một lần",
+      "Đúng thông tư",
+      "Dữ liệu là của anh chị"
+    ]
+  },
+  "pain": {
+    "eyebrow": "Bối cảnh",
+    "title": "Chuyển sang kê khai, giờ phải làm gì?",
+    "intro": "Nhiều hộ kinh doanh đang được chuyển từ thuế khoán sang kê khai. Việc chưa từng làm, mà làm sai thì lo bị phạt.",
+    "items": [
+      {
+        "title": "Phải ghi sổ, giữ hóa đơn điện tử, nộp tờ khai",
+        "desc": "Những thứ trước giờ chưa từng phải làm, giờ thành bắt buộc."
+      },
+      {
+        "title": "Sợ bị phạt, bị \"mời lên làm việc\"",
+        "desc": "Làm sai mà không biết mình sai ở đâu — nỗi lo lớn nhất."
+      },
+      {
+        "title": "Ngại phần mềm phức tạp, ngại thuê bao",
+        "desc": "Đăng ký tài khoản, học giao diện rối, rồi tháng nào cũng đóng phí."
+      },
+      {
+        "title": "Sợ số liệu doanh thu lộ ra ngoài",
+        "desc": "Đẩy hết sổ sách lên mây của người lạ — không yên tâm chút nào."
+      }
+    ],
+    "answerTitle": "Anh chị lo bán hàng.<br>Việc đúng luật, để công cụ lo.",
+    "answerBody": "HuyData gói những việc rắc rối đó vào phần mềm chạy sẵn trên máy anh chị: nhập liệu gọn, lên sổ và tờ khai đúng mẫu, xuất được file nộp qua HTKK. Kẹt đâu, nhắn Zalo có người quen chỉ việc.",
+    "answerSig": "— Không tổng đài vòng vo. Người làm ra phần mềm trực tiếp hỗ trợ."
+  },
+  "why": {
+    "eyebrow": "Vì sao chọn HuyData",
+    "title": "Ngược dòng với phần mềm thuê bao đám mây",
+    "intro": "Bốn điều làm nên khác biệt — cũng chính là bốn lời hứa chúng tôi giữ với anh chị.",
+    "cards": [
+      {
+        "icon": "once",
+        "title": "Trả một lần, không thuê bao",
+        "desc": "Mua đứt, xài mãi. Không phí chồng phí mỗi năm, không mất dữ liệu khi anh chị ngừng trả tiền."
+      },
+      {
+        "icon": "offline",
+        "title": "Chạy offline, dữ liệu ở lại máy",
+        "desc": "Không đẩy số liệu doanh thu lên mây của ai. Mọi thứ nằm trong máy anh chị — đúng nghĩa dữ liệu là của mình."
+      },
+      {
+        "icon": "law",
+        "title": "Đúng thông tư, cập nhật nhanh",
+        "desc": "Bám sát TT133 và quy định hóa đơn điện tử. Tác giả sống trong pháp quy nên cập nhật kịp mỗi khi luật đổi."
+      },
+      {
+        "icon": "chat",
+        "title": "Người thật đồng hành",
+        "desc": "Kẹt đâu nhắn Zalo. Người làm ra phần mềm trực tiếp trả lời, không tổng đài, không chờ đợi."
+      }
+    ]
+  },
+  "solutions": {
+    "enabled": true,
+    "eyebrow": "Giải pháp",
+    "title": "Không chỉ là phần mềm — mà là giải pháp",
+    "intro": "HuyData tiếp cận theo bài toán của từng nhóm. Phần mềm chỉ là một công cụ bên trong giải pháp; đi kèm là quy trình, biểu mẫu đúng chuẩn và người đồng hành.",
+    "groups": [
+      {
+        "id": "nha-nuoc",
+        "kicker": "Khu vực công",
+        "name": "Cho cơ quan nhà nước",
+        "badge": "",
+        "tagline": "Công cụ và biểu mẫu đúng thông tư cho các đơn vị hành chính, thống kê.",
+        "items": [
+          {
+            "name": "Quyết toán Thù lao Điều tra viên",
+            "badge": "live",
+            "badgeText": "Đang cung cấp",
+            "desc": "Quản lý và quyết toán thù lao điều tra viên thống kê theo TT37/2022 và TT185/2010. Nhập danh sách từ Excel, tự sinh biểu mẫu và quyết toán.",
+            "foot": "Dành cho đơn vị thống kê",
+            "url": "",
+            "linkText": "Tìm hiểu"
+          }
+        ]
+      },
+      {
+        "id": "doanh-nghiep",
+        "kicker": "Doanh nghiệp & hộ kinh doanh",
+        "name": "Cho doanh nghiệp",
+        "badge": "",
+        "tagline": "Bộ giải pháp vận hành: kế toán, kho hàng, hóa đơn — gọn, offline, license theo máy.",
+        "items": [
+          {
+            "name": "Kế Toán Pro",
+            "badge": "live",
+            "badgeText": "Đang cung cấp",
+            "desc": "Kế toán hộ và siêu nhỏ theo TT133: sổ sách, phiếu thu–chi, báo cáo tài chính, xuất tờ khai chuẩn HTKK. Nhiều công ty, nhiều năm tài chính.",
+            "foot": "License theo máy · Trả một lần",
+            "url": "",
+            "linkText": "Tìm hiểu"
+          },
+          {
+            "name": "KhoPro",
+            "badge": "soon",
+            "badgeText": "Sắp ra mắt",
+            "desc": "Quản lý kho và bán hàng, kèm Trợ lý Quyết định: hàng nào lãi, hàng nào tồn lâu, nên thanh lý gì và giảm bao nhiêu để hòa vốn.",
+            "foot": "Số liệu → hành động",
+            "url": "",
+            "linkText": ""
+          },
+          {
+            "name": "hddt-lite",
+            "badge": "dev",
+            "badgeText": "Đang phát triển",
+            "desc": "Tải và quản lý hóa đơn điện tử nhẹ nhàng, cho kế toán dịch vụ ôm nhiều công ty. Bỏ khâu tải từng tờ thủ công.",
+            "foot": "Xử lý hóa đơn",
+            "url": "",
+            "linkText": ""
+          },
+          {
+            "name": "Nhắc Việc Pro",
+            "badge": "dev",
+            "badgeText": "Đang phát triển",
+            "desc": "Nhắc hạn kê khai, hạn nộp thuế theo tháng và quý. Không bỏ lỡ mốc quan trọng.",
+            "foot": "Không lỡ mốc quan trọng",
+            "url": "",
+            "linkText": ""
+          }
+        ]
+      },
+      {
+        "id": "dich-vu-thue",
+        "kicker": "Dịch vụ",
+        "name": "Dịch vụ khai báo thuế",
+        "badge": "Đang thực hiện",
+        "tagline": "Không chỉ đưa công cụ — chúng tôi nhận làm cùng: kê khai, quyết toán và đồng hành theo kỳ.",
+        "items": [
+          {
+            "name": "Khai báo & quyết toán thuế",
+            "badge": "soon",
+            "badgeText": "Đang triển khai",
+            "desc": "Dịch vụ trọn gói cho hộ và doanh nghiệp nhỏ: chuẩn hóa số liệu bằng công cụ HuyData, lập và nộp tờ khai, đồng hành theo kỳ.",
+            "foot": "Đang nhận đăng ký sớm",
+            "url": "",
+            "linkText": "Đăng ký quan tâm"
+          }
+        ]
+      }
+    ]
+  },
+  "decision": {
+    "eyebrow": "Tầm nhìn",
+    "title": "Không dừng ở phần mềm.<br>Chúng tôi giúp anh chị ra quyết định.",
+    "intro": "Phần mềm chỉ là điểm khởi đầu. Cái đáng giá là con đường từ số liệu rời rạc đến một quyết định anh chị dám làm theo.",
+    "rungs": [
+      {
+        "k": "Tầng 1",
+        "title": "Phần mềm",
+        "desc": "Công cụ chạy trên máy, chuẩn hóa số liệu về một cấu trúc sạch — rẻ và phổ cập."
+      },
+      {
+        "k": "Tầng 2",
+        "title": "Dữ liệu",
+        "desc": "Số liệu sạch giúp so được với các hộ cùng ngành trong vùng — thứ mỗi năm một dày thêm."
+      },
+      {
+        "k": "Tầng 3",
+        "title": "Quyết định",
+        "desc": "Báo cáo sức khỏe kinh doanh: bán gì đang nuôi cửa hàng, cắt gì đang ăn vốn, quý tới làm gì."
+      },
+      {
+        "k": "Tầng 4",
+        "title": "Niềm tin",
+        "desc": "Có người đứng tên, chịu trách nhiệm cùng anh chị — điều không phần mềm nào thay được."
+      }
+    ],
+    "note": "Chia sẻ dữ liệu để nhận chuẩn đối sánh là hoàn toàn tự nguyện và mặc định luôn tắt. Không gửi, phần mềm vẫn chạy đủ. Số liệu điều tra – thống kê công vụ tuyệt đối không bao giờ đi vào hệ thống này."
+  },
+  "who": {
+    "eyebrow": "Dành cho ai",
+    "title": "Ba người, ba nỗi lo — một lời giải",
+    "cards": [
+      {
+        "tag": "Số đông",
+        "title": "Chủ hộ kinh doanh",
+        "desc": "Anh chị bán buôn quen tay, giờ bị chuyển sang kê khai. Cần công cụ đơn giản và một người quen chỉ việc khi kẹt — trả một lần cho yên tâm."
+      },
+      {
+        "tag": "Ưu tiên",
+        "title": "Kế toán dịch vụ",
+        "desc": "Ôm vài chục khách, nghẽn ở nhập liệu và lên tờ khai. Bộ công cụ giúp anh chị nhận thêm khách mà không tăng thêm giờ làm — ROI thấy được ngay."
+      },
+      {
+        "tag": "Chuyên ngành",
+        "title": "Đơn vị thống kê",
+        "desc": "Cần quản lý và quyết toán thù lao điều tra viên đúng thông tư, gọn trong một phần mềm — thay cho hàng chục file Excel rời rạc."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Cam kết riêng tư & bảo mật",
+    "title": "Dữ liệu là của anh chị. Chấm hết.",
+    "intro": "Với chúng tôi, riêng tư không phải tính năng để quảng cáo — nó là nguyên tắc gốc. Đây là những gì được viết thành cam kết.",
+    "items": [
+      {
+        "icon": "db",
+        "title": "Chạy offline, không lên mây",
+        "desc": "Số liệu nằm trong máy anh chị và không rời đi. Không tài khoản đám mây, không nguy cơ rò rỉ khi bên thứ ba bị tấn công."
+      },
+      {
+        "icon": "notrack",
+        "title": "Không cookie, không theo dõi",
+        "desc": "Trang web này không cài mã theo dõi, không phân tích hành vi, không quảng cáo. Anh chị đọc mà không bị ai ghi lại."
+      },
+      {
+        "icon": "lock",
+        "title": "License theo máy, ký số ECDSA",
+        "desc": "Bản quyền gắn với từng máy, ký số theo chuẩn ECDSA P-256 — chống sao chép mà vẫn minh bạch, không cần \"gọi về\" máy chủ nào."
+      },
+      {
+        "icon": "optin",
+        "title": "Chia sẻ là tự nguyện",
+        "desc": "Muốn nhận báo cáo chuẩn đối sánh ngành thì mới gửi dữ liệu đã ẩn danh. Mặc định luôn tắt, và anh chị rút lại bất cứ lúc nào."
+      }
+    ],
+    "firewallTitle": "Lằn ranh đạo đức tuyệt đối.",
+    "firewallBody": "Số liệu điều tra và báo cáo thống kê tiếp cận trong vai trò công vụ không bao giờ — dưới bất kỳ hình thức nào — chạm vào hệ thống HuyData. Chuẩn đối sánh của chúng tôi chỉ đến từ khách hàng tự nguyện đóng góp."
+  },
+  "about": {
+    "eyebrow": "Về HuyData",
+    "quote": "Tôi làm công cụ cho chính công việc của mình suốt hai mươi năm. Giờ mở ra cho bà con.",
+    "body": "HuyData không sinh ra từ một phòng họp khởi nghiệp. Nó lớn lên từ công việc thật trong ngành thuế – thống kê ở miền Tây: những buổi ngồi gỡ rối sổ sách, những mùa quyết toán, những lần bà con hỏi \"giờ tôi phải làm sao\". Mỗi phần mềm ở đây là một câu trả lời đã được dùng thật trước khi bán cho ai.",
+    "name": "Trần Huy",
+    "role": "Tư vấn Dữ liệu & AI · Người sáng lập"
+  },
+  "contact": {
+    "eyebrow": "Liên hệ",
+    "title": "Nói chuyện với người làm ra phần mềm",
+    "sub": "Nhắn một câu về việc anh chị đang gặp. Không kịch bản bán hàng, không ràng buộc — chỉ là hỏi cho rõ."
+  },
+  "pricing": {
+    "enabled": true,
+    "eyebrow": "Bảng giá & Bản quyền",
+    "title": "Trả một lần, license theo máy",
+    "intro": "Không thuê bao, không phí hằng tháng. Mua đứt dùng mãi; bản quyền gắn với từng máy, minh bạch bằng ký số.",
+    "note": "Giá mang tính tham khảo. Nhắn Zalo để nhận báo giá đúng theo số máy và nhu cầu thực tế của anh chị.",
+    "tiers": [
+      {
+        "name": "Dùng thử",
+        "price": "Miễn phí",
+        "period": "30 ngày, không ràng buộc",
+        "desc": "Trải nghiệm đầy đủ trước khi quyết định.",
+        "features": [
+          "Đầy đủ tính năng chính",
+          "Không cần thẻ, không tài khoản",
+          "Dữ liệu giữ nguyên khi mua bản quyền"
+        ],
+        "cta": "Nhận bản dùng thử",
+        "ctaLink": "",
+        "highlight": false,
+        "badge": ""
+      },
+      {
+        "name": "Bản quyền 1 máy",
+        "price": "Liên hệ",
+        "period": "/ máy · trả một lần",
+        "desc": "Phù hợp hộ kinh doanh và cá nhân làm dịch vụ.",
+        "features": [
+          "License ký số ECDSA theo máy",
+          "Cập nhật theo thông tư trong kỳ",
+          "Hỗ trợ trực tiếp qua Zalo"
+        ],
+        "cta": "Nhận báo giá",
+        "ctaLink": "",
+        "highlight": true,
+        "badge": "Phổ biến"
+      },
+      {
+        "name": "Gói đơn vị / nhiều máy",
+        "price": "Ưu đãi",
+        "period": "theo số lượng máy",
+        "desc": "Cho phòng kế toán dịch vụ và đơn vị nhiều máy.",
+        "features": [
+          "Chiết khấu theo số máy",
+          "Ưu tiên hỗ trợ và cập nhật",
+          "Tùy chỉnh biểu mẫu theo đơn vị"
+        ],
+        "cta": "Trao đổi nhu cầu",
+        "ctaLink": "",
+        "highlight": false,
+        "badge": ""
+      }
+    ]
+  },
+  "faq": {
+    "enabled": true,
+    "eyebrow": "Hỏi đáp",
+    "title": "Câu hỏi thường gặp",
+    "intro": "Những điều anh chị hay hỏi trước khi bắt đầu.",
+    "items": [
+      {
+        "q": "Không rành máy tính có dùng được không?",
+        "a": "Được. Phần mềm làm cho người bận bán hàng nên thao tác tối giản; kẹt đâu nhắn Zalo có người chỉ tận nơi."
+      },
+      {
+        "q": "Dữ liệu của tôi có bị đưa lên mạng không?",
+        "a": "Không. Phần mềm chạy offline, số liệu nằm trong máy anh chị. Chúng tôi không thu thập và không đẩy lên đám mây của ai."
+      },
+      {
+        "q": "Trả một lần hay đóng phí hằng tháng?",
+        "a": "Trả một lần, dùng mãi. Bản quyền gắn theo máy; không mất dữ liệu khi anh chị ngừng trả tiền như phần mềm thuê bao."
+      },
+      {
+        "q": "Phần mềm có cập nhật khi thông tư thay đổi không?",
+        "a": "Có. Tác giả làm việc trong ngành nên cập nhật kịp theo quy định mới trong kỳ hỗ trợ."
+      },
+      {
+        "q": "Có xuất được tờ khai để nộp thuế không?",
+        "a": "Có. Kế Toán Pro xuất file chuẩn để nộp qua HTKK; HTKK vẫn là bước trung gian khi nộp."
+      },
+      {
+        "q": "Muốn mua hoặc dùng thử thì liên hệ ai?",
+        "a": "Nhắn Zalo 0917 324 328 hoặc gọi trực tiếp — người làm ra phần mềm trả lời."
+      }
+    ]
+  }
+}

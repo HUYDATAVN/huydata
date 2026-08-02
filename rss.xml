@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+    <title>HuyData — Thư viện Tri thức</title>
+    <link>https://huydata.vn/</link>
+    <description>Kiến thức dữ liệu, thuế – kế toán, AI và quản trị.</description>
+    <language>vi</language>
+    <item>
+      <title>Bắt đầu với HuyData: hướng dẫn 5 bước</title>
+      <link>https://huydata.vn/hoc-cung-huydata/bat-dau-voi-huydata-5-buoc/</link>
+      <guid isPermaLink="true">https://huydata.vn/hoc-cung-huydata/bat-dau-voi-huydata-5-buoc/</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Chưa quen công cụ? Năm bước dưới đây giúp anh chị chạy được ngay từ hôm nay.</description>
+    </item>
+    <item>
+      <title>3 chỉ số sức khỏe mọi hộ kinh doanh nên theo dõi</title>
+      <link>https://huydata.vn/quan-tri-doanh-nghiep/3-chi-so-suc-khoe-kinh-doanh/</link>
+      <guid isPermaLink="true">https://huydata.vn/quan-tri-doanh-nghiep/3-chi-so-suc-khoe-kinh-doanh/</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Không cần báo cáo phức tạp. Ba chỉ số này đủ để biết cửa hàng đang khỏe hay đang đuối.</description>
+    </item>
+    <item>
+      <title>Dashboard giúp cửa hàng giảm 30% tồn kho</title>
+      <link>https://huydata.vn/case-study/dashboard-giam-ton-kho/</link>
+      <guid isPermaLink="true">https://huydata.vn/case-study/dashboard-giam-ton-kho/</guid>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Một cửa hàng tạp hóa dùng dashboard đơn giản để thấy hàng nào ăn vốn — và giảm tồn kho gần một phần ba sau ba tháng.</description>
+    </item>
+    <item>
+      <title>ChatGPT giúp gì cho kế toán dịch vụ</title>
+      <link>https://huydata.vn/ai-cho-doanh-nghiep/chatgpt-cho-ke-toan-dich-vu/</link>
+      <guid isPermaLink="true">https://huydata.vn/ai-cho-doanh-nghiep/chatgpt-cho-ke-toan-dich-vu/</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <description>AI không thay kế toán, nhưng làm giúp phần lặp đi lặp lại. Vài cách dùng thực tế cho người ôm nhiều khách.</description>
+    </item>
+    <item>
+      <title>Hiểu Thông tư 133 trong 10 phút</title>
+      <link>https://huydata.vn/thue-ke-toan/hieu-thong-tu-133-trong-10-phut/</link>
+      <guid isPermaLink="true">https://huydata.vn/thue-ke-toan/hieu-thong-tu-133-trong-10-phut/</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Thông tư 133 nghe phức tạp nhưng với hộ và doanh nghiệp nhỏ, phần cốt lõi khá gọn. Tóm tắt những điểm cần nhớ.</description>
+    </item>
+    <item>
+      <title>Từ số liệu bán hàng đến quyết định nhập hàng</title>
+      <link>https://huydata.vn/data-to-decision/tu-so-lieu-ban-hang-den-quyet-dinh-nhap-hang/</link>
+      <guid isPermaLink="true">https://huydata.vn/data-to-decision/tu-so-lieu-ban-hang-den-quyet-dinh-nhap-hang/</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+      <description>Số liệu bán hàng không chỉ để xem cho biết. Đây là cách đọc chúng để quyết định nhập gì, bỏ gì.</description>
+    </item>
+    <item>
+      <title>5 lỗi nhập liệu khiến báo cáo sai</title>
+      <link>https://huydata.vn/data-foundation/5-loi-nhap-lieu-pho-bien/</link>
+      <guid isPermaLink="true">https://huydata.vn/data-foundation/5-loi-nhap-lieu-pho-bien/</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+      <description>Những lỗi nhỏ khi nhập liệu tích lại thành báo cáo lệch. Đây là năm lỗi hay gặp nhất và cách tránh.</description>
+    </item>
+    <item>
+      <title>Dữ liệu sạch là gì và vì sao quan trọng</title>
+      <link>https://huydata.vn/data-foundation/du-lieu-sach-la-gi/</link>
+      <guid isPermaLink="true">https://huydata.vn/data-foundation/du-lieu-sach-la-gi/</guid>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+      <description>Dữ liệu sạch là nền của mọi báo cáo đáng tin. Hiểu đúng khái niệm này giúp anh chị ra quyết định không bị sai từ gốc.</description>
+    </item>
+    <item>
+      <title>7 việc phải làm khi chuyển sang kê khai</title>
+      <link>https://huydata.vn/thue-ke-toan/7-viec-khi-chuyen-sang-ke-khai/</link>
+      <guid isPermaLink="true">https://huydata.vn/thue-ke-toan/7-viec-khi-chuyen-sang-ke-khai/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <description>Danh sách ngắn gọn những việc một hộ kinh doanh cần làm ngay khi không còn thuế khoán, xếp theo thứ tự ưu tiên.</description>
+    </item>
+</channel></rss>

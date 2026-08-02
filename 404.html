@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>HuyData</title>
+<script>
+/*
+ * SPA GitHub Pages — 404 fallback.
+ * Khi vào thẳng một URL sạch chưa có file tĩnh (vd /{category}/{slug}/), GitHub Pages
+ * phục vụ file này. Ta chuyển path thành query (?/...) rồi về trang gốc; index.html
+ * sẽ giải mã lại thành đúng đường dẫn và router mở đúng bài.
+ *
+ * pathSegmentsToKeep:
+ *   1  = GitHub Pages project site (giữ segment tên repo: /<repo>/…)
+ *   0  = localhost / custom domain / user-site (user.github.io gốc)
+ * Tự phát hiện theo hostname; nếu sau này dùng custom domain thì mặc định 0 là đúng.
+ */
+(function () {
+  var pathSegmentsToKeep = /\.github\.io$/i.test(location.hostname) ? 1 : 0;
+  var l = location;
+  l.replace(
+    l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "") +
+    l.pathname.split("/").slice(0, 1 + pathSegmentsToKeep).join("/") + "/?/" +
+    l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/").replace(/&/g, "~and~") +
+    (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+    l.hash
+  );
+})();
+</script>
+</head>
+<body></body>
+</html>
