@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<script>
+/* SPA GitHub Pages — giải mã deep-link do 404.html chuyển thành query (?/...).
+   PHẢI chạy trước mọi tài nguyên tương đối: đặt <base> = thư mục gốc site để
+   css/js/json phân giải đúng, rồi khôi phục URL sạch bằng replaceState. Không làm
+   gì trên lượt tải bình thường (khi không có "?/"). */
+(function(l){
+  if (l.search.charAt(1) === "/") {
+    document.write('<base href="' + l.pathname + '">');
+    var decoded = l.search.slice(1).split("&").map(function(s){ return s.replace(/~and~/g, "&"); }).join("?");
+    history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+  }
+})(window.location);
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">HuyData — Giải pháp dữ liệu cho hộ kinh doanh & doanh nghiệp nhỏ miền Tây</title>
+<meta id="meta-desc" name="description" content="Giải pháp kế toán, kho hàng, hóa đơn và khai báo thuế chạy offline. Trả một lần, dữ liệu ở lại máy mình.">
+<meta property="og:type" content="website">
+<meta id="og-title" property="og:title" content="HuyData — Giải pháp dữ liệu">
+<meta id="og-desc" property="og:description" content="Giải pháp kế toán, kho hàng, hóa đơn và khai báo thuế. Trả một lần, dữ liệu ở lại máy mình.">
+<meta id="og-img" property="og:image" content="" data-off="1">
+<meta name="twitter:card" content="summary_large_image">
+<meta id="tw-title" name="twitter:title" content="HuyData">
+<meta id="tw-desc" name="twitter:description" content="">
+<meta id="tw-img" name="twitter:image" content="">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'none'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://*.supabase.co; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%23102A1D'/%3E%3Cline x1='50' y1='36' x2='50' y2='144' stroke='%2374C69D' stroke-width='16' stroke-linecap='round'/%3E%3Cline x1='130' y1='36' x2='130' y2='144' stroke='%2374C69D' stroke-width='16' stroke-linecap='round'/%3E%3Cline x1='50' y1='90' x2='130' y2='90' stroke='%232DD4A8' stroke-width='16' stroke-linecap='round'/%3E%3Ccircle cx='50' cy='36' r='14' fill='%23B7E4C7'/%3E%3Ccircle cx='130' cy='36' r='14' fill='%232DD4A8'/%3E%3Ccircle cx='50' cy='144' r='14' fill='%232DD4A8'/%3E%3Ccircle cx='130' cy='144' r='14' fill='%23B7E4C7'/%3E%3Ccircle cx='90' cy='90' r='12' fill='%2340916C'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<script id="site-content" type="application/json">null</script>
+
+<header id="hdr" class="on-hero">
+  <div class="wrap nav">
+    <a class="brand" href="#top" id="brand" aria-label="Về đầu trang"></a>
+    <nav class="nav-links" id="navlinks" aria-label="Điều hướng chính"></nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost on-hero" href="#lien-he">Liên hệ</a>
+      <a class="btn btn-primary" id="nav-zalo" target="_blank" rel="noopener noreferrer"></a>
+      <button class="burger" id="burger" aria-label="Mở menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <canvas id="constellation" aria-hidden="true"></canvas>
+  <div class="wrap"><div class="hero-inner" id="r-hero"></div></div>
+</section>
+
+<section class="band band-cream" id="boi-canh"><div class="wrap" id="r-pain"></div></section>
+<section class="band" id="vi-sao"><div class="wrap" id="r-why"></div></section>
+<section class="band band-cream" id="giai-phap"><div class="wrap" id="r-solutions"></div></section>
+<section class="band" id="bang-gia"><div class="wrap" id="r-pricing"></div></section>
+<section class="band band-deep" id="quyet-dinh"><div class="wrap" id="r-decision"></div></section>
+<section class="band" id="khach-hang"><div class="wrap" id="r-who"></div></section>
+<section class="band band-cream" id="rieng-tu"><div class="wrap" id="r-privacy"></div></section>
+<section class="band" id="bai-viet"><div class="wrap" id="r-blog"></div></section>
+<section class="band" id="ve-huydata"><div class="wrap" id="r-about"></div></section>
+<section class="band band-cream" id="faq"><div class="wrap" id="r-faq"></div></section>
+<section class="band band-deep" id="lien-he"><div class="wrap" id="r-contact"></div></section>
+
+<footer><div class="wrap" id="r-footer"></div></footer>
+
+<div class="postview" id="postview">
+  <div class="pv-top"><div class="wrap">
+    <button class="pv-back" id="pv-back"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg> Về trang chủ</button>
+    <span class="brand" id="pv-brand"></span>
+  </div></div>
+  <article class="article" id="pv-article"></article>
+</div>
+
+<button class="adminbtn" id="adminbtn" title="Quản trị nội dung" aria-label="Quản trị nội dung"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></button>
+
+<div class="modal" id="pinmodal">
+  <div class="modal-card">
+    <h3>Chế độ Quản trị</h3>
+    <p>Nhập mã PIN để chỉnh sửa nội dung. Mã được so khớp bằng bản băm SHA-256 ngay trong máy bạn.</p>
+    <input type="password" id="pininput" inputmode="numeric" placeholder="• • • • •" autocomplete="off">
+    <div class="modal-err" id="pinerr"></div>
+    <div style="display:flex;gap:10px">
+      <button class="btn btn-ghost" id="pincancel" style="flex:1;justify-content:center">Đóng</button>
+      <button class="btn btn-primary" id="pinok" style="flex:1;justify-content:center">Mở khóa</button>
+    </div>
+  </div>
+</div>
+
+<div id="admin"></div>
+<div class="toast" id="toast"></div>
+
+<script src="js/backend-adapter.js"></script>
+<script src="js/data-service.js"></script>
+<script src="js/search.js"></script>
+<script src="js/blog.js"></script>
+<script src="js/router.js"></script>
+<script src="js/seo.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

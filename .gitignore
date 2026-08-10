@@ -23,3 +23,6 @@ HuyData_Website_6.html
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Ban master 1-file (giu local, index.html la ban deploy)
+HuyData_Website (CT).html
