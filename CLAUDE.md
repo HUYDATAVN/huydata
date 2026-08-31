@@ -3,7 +3,53 @@
 > Claude Code tự đọc file này khi mở dự án. Nó cho biết **hiện trạng thật** và **hướng đi** để
 > không bắt đầu lại từ đầu. File nằm trong git nên đi theo mọi `git clone`.
 
-## Bản đang CHẠY (quan trọng — đọc kỹ)
+## ⚠️ CẬP NHẬT 21/08/2026 — ĐANG CHẠY BẢN v4 NHIỀU TRANG
+
+**Phần "Bản đang CHẠY" bên dưới đã cũ.** Site không còn là một file duy nhất định tuyến bằng `#`.
+
+- Mỗi bài viết là **một trang HTML thật**: `/bai-viet/<slug>/index.html`. Có `/bai-viet/` (danh sách),
+  `404.html`, `sitemap.xml` địa chỉ thật, `robots.txt` khai sitemap và vẫn chặn `/_old/`.
+- Lý do đổi: Google cắt bỏ mọi thứ sau dấu `#`, nên với `#/bai/<slug>` thì **mọi bài viết đều bị coi là
+  cùng một trang** — viết bao nhiêu bài cũng chỉ có đúng một trang xếp hạng được.
+- Trang chủ nay nướng sẵn nội dung vào `<noscript>`: **207 → 13.713 ký tự** bot đọc được khi không chạy JS.
+- JSON-LD: trang chủ AccountingService · WebSite · FAQPage · CollectionPage; trang bài thêm Article ·
+  BreadcrumbList. Hồ sơ pháp lý thật (MST 83084000563) đã nằm trong dữ liệu có cấu trúc.
+
+### Quy trình đăng — ĐÃ ĐỔI, đọc kỹ
+
+`index.html` vẫn tự chứa admin (nút bút chì + PIN). Nhưng nút để đăng bây giờ là
+**"Xuất bản site (.zip)"**, không phải "Xuất trang (.html)".
+
+1. Mở huydata.vn → bút chì → PIN → sửa → **Lưu**
+2. **Xuất bản site (.zip)** → tải về `huydata-site.zip` (8 file)
+3. Giải nén, chép **cả bộ** vào kho (giữ nguyên thư mục `bai-viet/`), `git add -A && git commit && git push`
+
+> **`capnhat-web.bat` KHÔNG còn đủ.** Nó chỉ chép một file `HuyData_Website*.html` từ Downloads đè lên
+> `index.html`. Làm vậy thì trang chủ có nội dung mới nhưng `sitemap.xml` và các trang `/bai-viet/…/`
+> vẫn là bản cũ — bài mới sẽ không có trang riêng. Dùng nút .zip.
+
+> Nút **"Xuất trang (.html)"** vẫn còn, chỉ ra một file trang chủ — dùng khi sửa nhanh phần landing
+> mà không đụng tới bài viết.
+
+### Chỗ dễ vấp trong mã
+
+- Bộ nén ZIP **tự viết** (`zipMake()`, kiểu store + CRC32) vì CSP của trang chặn script ngoài.
+  Tên thư mục trong ZIP luôn phải dùng `/`, không phải `\`.
+- `SHELL` được chụp bằng `document.documentElement.outerHTML` ở đầu thẻ `<script>` cuối trang —
+  nên bản xuất ra vẫn xuất bản lại được. Đừng chuyển thẻ script đó lên trên.
+- Thẻ bài trên trang chủ là `<a href="bai-viet/…/">` thật, JS chặn `click` để mở nhanh trong trang.
+  Ctrl+bấm vẫn đi tới trang thật. Đừng đổi lại thành `<div>`.
+- Chữ giữ chỗ dạng `(Điền …)` được lọc khỏi `<noscript>` và khỏi JSON-LD — cứ để nguyên, không sợ
+  Google lập chỉ mục nhầm.
+
+### Việc còn lại (chủ dự án tự làm)
+
+Google Search Console (yêu cầu lập chỉ mục + khai sitemap) · Google Business Profile ·
+ảnh chia sẻ OG 1200×630 (đang trống).
+
+---
+
+## Bản 1-file (LỊCH SỬ — không còn là bản đang chạy)
 Trang thật **https://huydata.vn** hiện là **MỘT FILE HTML tự chứa** (`index.html`): CSS + JS + nội dung
 đều inline trong file, định tuyến bằng **hash** (`#/bai/<slug>`), có sẵn **panel quản trị** (nút bút chì +
 mã PIN, băm SHA-256 trong `settings.pinHash`). Nút **"Xuất trang (.html)"** trong admin xuất ra lại một
