@@ -7,18 +7,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://huydata.vn/giai-phap/</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huydata.vn/giai-phap/thue-so-sach-ho-kinh-doanh/</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://huydata.vn/cong-cu/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
