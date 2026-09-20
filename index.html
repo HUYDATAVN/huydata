@@ -553,13 +553,14 @@
   .nav-item>a{display:inline-flex;align-items:center;gap:4px;line-height:1}
   .dd-caret{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2;opacity:.55;transition:transform .2s;flex:none}
   .nav-item.has-dd:hover .dd-caret{transform:rotate(180deg)}
-  .dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(10px);min-width:240px;max-width:520px;background:var(--warm-white);border:1px solid var(--line);border-radius:16px;box-shadow:var(--sh-lg);padding:18px 20px;opacity:0;visibility:hidden;transition:opacity .2s var(--ease),transform .2s var(--ease);z-index:130}
+  .dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(10px);min-width:260px;max-width:340px;max-height:min(72vh,560px);overflow-y:auto;background:var(--warm-white);border:1px solid var(--line);border-radius:16px;box-shadow:var(--sh-lg);padding:18px 20px;opacity:0;visibility:hidden;transition:opacity .2s var(--ease),transform .2s var(--ease);z-index:130}
   .dropdown::before{content:"";position:absolute;top:-12px;left:0;right:0;height:12px}
   .nav-item.has-dd:hover .dropdown{opacity:1;visibility:visible;transform:translateX(-50%) translateY(6px)}
-  .dd-inner{display:flex;gap:26px;align-items:flex-start}
-  .dd-col{display:flex;flex-direction:column;gap:1px;min-width:150px}
+  .dd-inner{display:flex;flex-direction:column;gap:12px;align-items:stretch}
+  .dd-col{display:flex;flex-direction:column;gap:1px;min-width:0}
+  .dd-inner .dd-col + .dd-col{border-top:1px solid var(--line);padding-top:12px}
   .dd-group{font-size:10.5px!important;letter-spacing:1.3px;text-transform:uppercase;color:var(--teal-deep)!important;font-weight:700!important;margin-bottom:6px;white-space:nowrap}
-  .dropdown a{display:block;padding:5px 0;font-size:13.5px;color:var(--text-mid)!important;white-space:nowrap;font-weight:400!important}
+  .dropdown a{display:block;padding:5px 0;font-size:13.5px;color:var(--text-mid)!important;white-space:normal;font-weight:400!important}
   .dropdown a::after{display:none!important}
   .dropdown a:hover{color:var(--teal-deep)!important}
   .dd-all{margin-top:14px;padding-top:12px!important;border-top:1px solid var(--line);font-weight:600!important;color:var(--teal-deep)!important;font-size:13px!important}
@@ -893,7 +894,7 @@ Nếu anh chị là người địa phương, thích công việc linh hoạt v�
 </header>
 
 <section class="hero" id="top">
-  <canvas id="constellation" aria-hidden="true" width="499" height="1264"></canvas>
+  <canvas id="constellation" aria-hidden="true" width="1897" height="1290"></canvas>
   <div class="wrap"><div class="hero-inner" id="r-hero"><span class="eyebrow on-dark">Ghi doanh thu đơn giản cho hộ kinh doanh</span><h1>Cứ lo bán hàng,<br>sổ sách đã có <span class="em">HuyData</span>.</h1><h2 class="hero-kw">Dịch vụ kế toán – thuế cho hộ kinh doanh tại Chợ Lách, Vĩnh Long</h2><p class="hero-sub">Từ 01/01/2026, phương pháp thuế khoán được bãi bỏ. HuyData cung cấp CaPi — công cụ ghi doanh thu, kèm người hướng dẫn giúp anh chị theo dõi số liệu và phần việc cần thực hiện theo quy định.</p><div class="hero-cta"><a class="btn btn-primary" href="https://zalo.me/0917324328" target="_blank" rel="noopener noreferrer"><svg class="zic" viewBox="0 0 48 48" width="20" height="20" aria-hidden="true" focusable="false"><rect x="2.4" y="2.4" width="43.2" height="43.2" rx="11.5" fill="#ffffff" stroke="#0068FF" stroke-width="3"></rect><text x="24" y="30.2" text-anchor="middle" textLength="32" lengthAdjust="spacingAndGlyphs" font-family="Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#0068FF">Zalo</text></svg> Nhắn Zalo hỏi thử</a><a class="btn btn-ghost on-dark" data-item="it-thue-hkd" href="giai-phap/thue-so-sach-ho-kinh-doanh/">Xem HuyData làm gì</a></div><div class="hero-trust"><span>Người thật hỗ trợ tận nơi</span><span>Ghi doanh thu bằng điện thoại</span><span>Nhiều năm kinh nghiệm kế toán </span></div></div></div>
 </section>
 
