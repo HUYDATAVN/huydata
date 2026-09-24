@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://huydata.vn/giai-phap/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://huydata.vn/giai-phap/dich-vu-dang-ky-kinh-doanh-ho-ca-the/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -44,9 +44,15 @@
   </url>
   <url>
     <loc>https://huydata.vn/van-ban/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://huydata.vn/van-ban/thong-tu-89-2026-tt-btc/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://huydata.vn/bai-viet/</loc>
