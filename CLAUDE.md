@@ -1,105 +1,56 @@
-# CLAUDE.md — Hồ sơ dự án HuyData (cho Claude Code)
+# CLAUDE.md — kho huydata.vn (bản v9)
 
-> Claude Code tự đọc file này khi mở dự án. Nó cho biết **hiện trạng thật** và **hướng đi** để
-> không bắt đầu lại từ đầu. File nằm trong git nên đi theo mọi `git clone`.
+> Claude Code đọc file này khi mở kho. Ghi đúng hiện trạng để phiên sau không bắt đầu lại từ đầu.
 
-## ⚠️ CẬP NHẬT 21/08/2026 — ĐANG CHẠY BẢN v4 NHIỀU TRANG
+## Hiện trạng: bản v9 (từ 10/2026)
 
-**Phần "Bản đang CHẠY" bên dưới đã cũ.** Site không còn là một file duy nhất định tuyến bằng `#`.
+Định vị: **"Phần mềm và hỗ trợ sổ sách cho hộ kinh doanh, doanh nghiệp nhỏ"** (theo kế hoạch chiến lược v3, 07/10/2026).
+Phần mềm đứng trước (Hóa Đơn Pro, Kho Pro, Sổ Doanh Thu), gói Đồng hành đi sau.
 
-- Mỗi bài viết là **một trang HTML thật**: `/bai-viet/<slug>/index.html`. Có `/bai-viet/` (danh sách),
-  `404.html`, `sitemap.xml` địa chỉ thật, `robots.txt` khai sitemap và vẫn chặn `/_old/`.
-- Lý do đổi: Google cắt bỏ mọi thứ sau dấu `#`, nên với `#/bai/<slug>` thì **mọi bài viết đều bị coi là
-  cùng một trang** — viết bao nhiêu bài cũng chỉ có đúng một trang xếp hạng được.
-- Trang chủ nay nướng sẵn nội dung vào `<noscript>`: **207 → 13.713 ký tự** bot đọc được khi không chạy JS.
-- JSON-LD: trang chủ AccountingService · WebSite · FAQPage · CollectionPage; trang bài thêm Article ·
-  BreadcrumbList. Hồ sơ pháp lý thật (MST 83084000563) đã nằm trong dữ liệu có cấu trúc.
+**Mọi trang là HTML tĩnh**, không còn lớp phủ SPA. Bộ dựng `hd-build.js` biến `noi-dung.json` thành toàn bộ trang.
 
-### Quy trình đăng — ĐÃ ĐỔI, đọc kỹ
+| File | Vai trò | Ai sửa |
+|---|---|---|
+| `noi-dung.json` | Toàn bộ nội dung (trang, khối, bài viết, giá, cài đặt) | Trang quản trị |
+| `hd-build.js` | Bộ dựng trang (chạy trong trình duyệt và Node) | Code |
+| `giao-dien.css`, `site.js` | Giao diện, tiện ích nhỏ | Code |
+| `quan-tri/` | Trang quản trị (PIN → soạn → Đăng lên GitHub) | Code |
+| `index.html`, `phan-mem/…`, `dich-vu/…`, `dong-hanh/…`, `bai-viet/…`, `sitemap.xml`, `robots.txt`, `404.html` | Trang sinh ra | Trang quản trị sinh lại mỗi lần đăng |
+| `giai-phap/…`, `cong-cu/…` | Trang chuyển hướng địa chỉ cũ (noindex) | Sinh từ `redirects` trong noi-dung.json |
+| `van-ban/<slug>/index.html` | Văn bản HTML tải lên, giữ nguyên | Chỉ ghi lại khi chọn file mới |
+| `anh/` | Ảnh. `anh/v9/` là ảnh chụp phần mềm bằng dữ liệu MẪU | Trang quản trị tải ảnh lên |
 
-`index.html` vẫn tự chứa admin (nút bút chì + PIN). Nhưng nút để đăng bây giờ là
-**"Xuất bản site (.zip)"**, không phải "Xuất trang (.html)".
+Mã nguồn gốc và công cụ dựng/chụp ảnh nằm ngoài kho: `D:\CLAUDE CODE\HUYDATA.VN\v9\` (src/, tools/).
+Sửa code ở đó, `node tools/build.mjs` → `node tools/kiem-tra.mjs` → `tools/dang-len.ps1`.
 
-1. Mở huydata.vn → bút chì → PIN → sửa → **Lưu**
-2. **Xuất bản site (.zip)** → tải về `huydata-site.zip` (8 file)
-3. Giải nén, chép **cả bộ** vào kho (giữ nguyên thư mục `bai-viet/`), `git add -A && git commit && git push`
+## Kiến thức (/bai-viet/)
+Thư viện kiến thức, không phải chỗ quảng cáo phần mềm. Chuyên mục (`blog.categories`, có trang `/bai-viet/chuyen-muc/<slug>/`, tự ẩn khi trống), nhãn "Dành cho" (`blog.audiences`), mỗi bài có `category`, `audience[]`, `facts[]` (khung Thông tin chính), `sources[]`, `product` (gợi ý công cụ, không bắt buộc). Bài `pillar:true` là **Cẩm nang** (mỗi chuyên mục một bài tổng quan): hiện ở khối "Cẩm nang trọng tâm", đứng đầu chuyên mục, các bài cùng chuyên mục tự dẫn về. Khối "Mới cập nhật" chỉ hiện khi > 6 bài và không lặp cẩm nang. Tìm bài + lọc chạy bằng site.js.
 
-> **`capnhat-web.bat` KHÔNG còn đủ.** Nó chỉ chép một file `HuyData_Website*.html` từ Downloads đè lên
-> `index.html`. Làm vậy thì trang chủ có nội dung mới nhưng `sitemap.xml` và các trang `/bai-viet/…/`
-> vẫn là bản cũ — bài mới sẽ không có trang riêng. Dùng nút .zip.
+## Menu và dịch vụ
+`settings.nav[]`: mỗi mục có `label`, `href`, tùy chọn `auto` ("products" | "services" | "knowledge" — danh sách thả xuống tự lấy) và `children[]` (label, href, desc — thêm tay). Rê chuột/tab vào mục sẽ thả xuống (CSS thuần). Trang dịch vụ: `kind:"service"`, `parent:"dich-vu"`, `order`, `card{name,line,icon}`; khối `services` liệt kê tự động. Hub `/dich-vu/`; Đồng hành giữ địa chỉ `/dong-hanh/`.
 
-> Nút **"Xuất trang (.html)"** vẫn còn, chỉ ra một file trang chủ — dùng khi sửa nhanh phần landing
-> mà không đụng tới bài viết.
+## Ảnh bìa bài viết
+`anh/v9/bia/<slug>.jpg` (1200×630, cũng là ảnh chia sẻ Zalo/Facebook). Vẽ từ khuôn `v9/tools/chup/bia.html` (minh họa SVG riêng từng bài, tông màu theo chuyên mục, bài Cẩm nang nền xanh thẫm) rồi `node tools/chup/bia.mjs`. Bài mới: thêm một mục vào `COVERS` + một hàm vào `ART`. Không dùng ảnh rập khuôn. Ảnh chia sẻ chung `anh/v9/og-*.jpg` (huydata, phan-mem, dich-vu, kien-thuc, van-ban) vẽ cùng khuôn (mục `og:true`); trang dùng `seo.image`, Kiến thức `blog.image`, Văn bản `docs.image`. Ảnh chụp phần mềm của 6 bài cũ nằm trong thân bài (`<figure>`).
 
-### Chỗ dễ vấp trong mã
+## Đo lượt xem
+GA4 (`settings.analytics.ga4`) + Search Console (`analytics.gsc`); site.js đếm `contact_click` (zalo/phone/email) và `share`. Nút chia sẻ cuối bài gắn `utm_source=zalo|facebook&utm_medium=chia-se`. Trang `/chinh-sach-quyen-rieng-tu/` (link ở chân trang). Hướng dẫn cho chủ dự án: `noi-dung/GD6-HUONG-DAN-GOOGLE-VA-DO-LUOT-XEM.md`.
 
-- Bộ nén ZIP **tự viết** (`zipMake()`, kiểu store + CRC32) vì CSP của trang chặn script ngoài.
-  Tên thư mục trong ZIP luôn phải dùng `/`, không phải `\`.
-- `SHELL` được chụp bằng `document.documentElement.outerHTML` ở đầu thẻ `<script>` cuối trang —
-  nên bản xuất ra vẫn xuất bản lại được. Đừng chuyển thẻ script đó lên trên.
-- Thẻ bài trên trang chủ là `<a href="bai-viet/…/">` thật, JS chặn `click` để mở nhanh trong trang.
-  Ctrl+bấm vẫn đi tới trang thật. Đừng đổi lại thành `<div>`.
-- Chữ giữ chỗ dạng `(Điền …)` được lọc khỏi `<noscript>` và khỏi JSON-LD — cứ để nguyên, không sợ
-  Google lập chỉ mục nhầm.
+## Giọng văn
+Giọng bán hàng ấm, lịch sự, đủ ý: xưng "HuyData/chúng tôi", gọi "anh chị/cô chú anh chị". Không "tụi tôi", không câu cộc, không dạy đời.
 
-### Việc còn lại (chủ dự án tự làm)
+## Ranh giới nội dung (bắt buộc)
+- Không dùng: "kế toán trọn gói", "dịch vụ kế toán", "khai thuế thay", "đại lý thuế", "cam kết không bị phạt".
+- Không ghi số năm kinh nghiệm, không ghi "thống kê", chức danh, nơi công tác của chủ hộ.
+- Giá để "Liên hệ" trừ khi chủ dự án đổi. Không nhắc Kế Toán Pro (chưa phát hành).
+- Lời khách thật: chỉ cắt bớt, không viết thêm.
+- Nguồn cuối bài ("Căn cứ và nguồn chính thức"): CHỈ văn bản gốc và trang nhà nước (vanban/congbao/xaydungchinhsach.chinhphu.vn, baochinhphu.vn, gdt.gov.vn, mof.gov.vn, vbpl.vn). Không dẫn MISA, Sapo, các hãng hóa đơn hay công ty tư vấn. kiem-tra.mjs báo lỗi nếu vi phạm.
+- Hóa đơn điện tử: từ 01/7/2026 căn cứ là Nghị định 254/2026/NĐ-CP + Thông tư 91/2026/TT-BTC (thay NĐ 123/2020, NĐ 70/2025).
 
-Google Search Console (yêu cầu lập chỉ mục + khai sitemap) · Google Business Profile ·
-ảnh chia sẻ OG 1200×630 (đang trống).
+## Quản trị
+- Vào: `huydata.vn/quan-tri/` (bánh răng 11px rất mờ ngay trước "© năm HuyData" ở chân trang, `#quan-tri` cũ, Ctrl/⌘+Alt+A).
+- PIN: băm SHA-256 ở `noi-dung.json → settings.pinHash`. Đổi trong Cài đặt chung.
+- Chìa khóa GitHub: localStorage `hd_gh_token` / `hd_gh_cfg` (dùng chung bản cũ). Không bao giờ vào file.
+- Nút Đăng: một commit qua Git Data API, **chỉ thêm/ghi đè, không xóa file**. Gỡ trang đã đăng: dùng nút Xóa trang (tự thêm chuyển hướng) hoặc `git rm`.
 
----
-
-## Bản 1-file (LỊCH SỬ — không còn là bản đang chạy)
-Trang thật **https://huydata.vn** hiện là **MỘT FILE HTML tự chứa** (`index.html`): CSS + JS + nội dung
-đều inline trong file, định tuyến bằng **hash** (`#/bai/<slug>`), có sẵn **panel quản trị** (nút bút chì +
-mã PIN, băm SHA-256 trong `settings.pinHash`). Nút **"Xuất trang (.html)"** trong admin xuất ra lại một
-file HTML đã bake nội dung → đó là cơ chế "publish".
-
-- Chủ dự án: Trần Huy. Định vị mới, **đơn giản**: web để **đăng bài chuẩn SEO** cho hộ kinh doanh về thuế/kế toán.
-- Kho: github.com/HUYDATAVN/huydata · Deploy: GitHub Pages (nhánh `main`, thư mục `/root`).
-- `CNAME` = huydata.vn · `.nojekyll` bắt buộc · HTTPS đã bật (Enforce HTTPS).
-
-## MỤC TIÊU HIỆN TẠI / HƯỚNG ĐI
-Giữ **đơn giản**. Ưu tiên: **viết bài chuẩn SEO**, dễ quản trị. **Có thể sẽ thiết kế lại** trang theo hướng
-gọn hơn. Không cần kiến trúc phức tạp.
-
-## LỊCH SỬ (vì sao có thư mục `_old/`)
-Trước đó dự án từng được refactor thành **SPA nhiều module** (DataService, router, seo.js, sinh trang tĩnh
-mỗi bài, sitemap/rss, CMS mở rộng, backend Supabase — Phase 3.0→3.8). Sau đó chủ dự án **quay lại bản
-1-file cho đơn giản**. Toàn bộ SPA cũ được **lưu trữ**:
-- Thư mục **`_old/`** trong repo (js/, css/, data/, các trang bài, sitemap/rss…).
-- Nhánh **`backup-noidung-cu`** (bản SPA nguyên vẹn, commit `b0bc0ac`).
-- Nhật ký kỹ thuật của giai đoạn SPA: `_old/`… và các `docs/` (mô tả SPA — **không còn là bản đang chạy**).
-
-> Khi bàn về "bản đang chạy", đó là **`index.html` 1-file**, KHÔNG phải SPA trong `_old/`.
-
-## Cấu trúc repo hiện tại
-```
-index.html          ← BẢN ĐANG CHẠY (1 file tự chứa)
-CNAME               ← huydata.vn (đừng xóa)
-.nojekyll           ← bắt buộc cho GitHub Pages
-robots.txt          ← chặn /_old/ khỏi Google
-capnhat-web.bat     ← công cụ cập nhật bản 1-file
-_old/               ← SPA cũ đã lưu trữ (không phải bản chạy)
-docs/               ← tài liệu (phần lớn mô tả SPA cũ — tham khảo)
-README.md · CLAUDE.md
-```
-
-## Quy trình cập nhật nội dung (bản 1-file)
-1. Mở https://huydata.vn → nút bút chì → nhập PIN → sửa/viết bài → **Lưu**.
-2. Tab xuất bản → **"Xuất trang (.html)"** → tải về `HuyData_Website.html` (Downloads).
-3. Nháy đúp **`capnhat-web.bat`** (tự chép file đó thành `index.html` rồi `git push`). Hoặc thủ công:
-   chép đè `index.html` + `git add index.html && git commit && git push`.
-4. Chờ 1–2 phút → GitHub Pages cập nhật.
-
-## Dev/test
-Không có Node/Python thật (python là stub Store). Dùng server tĩnh PowerShell (.NET HttpListener) rồi mở
-qua `mcp__Claude_Browser__preview_start`; kiểm bằng `javascript_tool`/`read_console_messages`. File 1-file
-tự chứa nên có thể mở thẳng để test, không cần fetch.
-
-## GOTCHAS
-- **PIN**: băm SHA-256 trong `settings.pinHash` của chính `index.html`. Bản 1-file hiện tại dùng PIN riêng
-  (không phải "huydata"). Quên PIN → thay `pinHash` bằng băm SHA-256 của PIN mới rồi push.
-- **PowerShell:** đừng đặt hàm tên `RD`/`H` (trùng alias). Đường dẫn có dấu cách + xóa đệ quy dễ bị guard chặn → dùng `[System.IO.Directory]::Delete`.
-- **Đừng xóa** `CNAME`, `.nojekyll`.
-- Muốn xem lại/khôi phục SPA: `git checkout backup-noidung-cu` hoặc lấy từ `_old/`.
+## Sao lưu
+Nhánh `sao-luu-v8-truoc-v9` = bản ngay trước v9. Nhánh `backup-noidung-cu` = SPA cũ.

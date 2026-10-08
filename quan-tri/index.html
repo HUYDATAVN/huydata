@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quản trị HuyData</title>
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; form-action 'none'; img-src 'self' data: https: blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self' https://api.github.com; frame-src 'self' blob:; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="quan-tri.css?v=9.3.0">
+</head>
+<body>
+<div id="pin" class="pin">
+  <form class="pin-card" id="pin-form" autocomplete="off">
+    <div class="pin-logo" id="pin-logo"></div>
+    <h1>Quản trị HuyData</h1>
+    <p>Nhập mã PIN để soạn và đăng nội dung.</p>
+    <input id="pin-input" type="password" inputmode="numeric" placeholder="Mã PIN" aria-label="Mã PIN">
+    <div class="pin-err" id="pin-err" role="alert"></div>
+    <button class="b b-pri" type="submit">Mở quản trị</button>
+    <a class="pin-back" href="/">← Về trang chủ</a>
+  </form>
+</div>
+<div id="app" class="app" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="/hd-build.js?v=9.3.0"></script>
+<script src="quan-tri.js?v=9.3.0"></script>
+</body>
+</html>

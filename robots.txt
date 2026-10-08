@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /quan-tri/
 Disallow: /_old/
 
 Sitemap: https://huydata.vn/sitemap.xml
